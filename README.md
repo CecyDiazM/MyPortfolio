@@ -44,7 +44,7 @@ Check out my live portfolio at **[cevdeveloper.com](https://cevdeveloper.com/)**
 "Ready to build the future?" 🚀
 
 ## 📸 Preview
-![Portfolio Screenshot](path-to-your-screenshot.png)
+![Portfolio Screenshot](https://github.com/CecyDiazM/MyPortfolio/blob/main/website.png)
 
 🚀 Portfolio Website | Cecilia Díaz
 Welcome to the repository of my official portfolio website, accessible at cevdeveloper.com.
