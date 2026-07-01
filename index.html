@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecilia Díaz - Backend Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons8-developer-48.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/yoavatar.png" alt="Cecilia Díaz Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav_icon">
+                <img src="img/square.png" alt="home">
+                <span data-i18n="nav_home">Home</span>
+            </a></li>
+            <li><a href="#projects" class="nav_icon">
+                <img src="img/creative-thinking.png" alt="projects">
+                <span data-i18n="nav_projects">Projects</span>
+            </a></li>
+            <li><a href="#skills" class="nav_icon">
+                <img src="img/pencil.png" alt="skills">
+                <span data-i18n="nav_skills">Skills</span>
+            </a></li>
+            <li><a href="#contact" class="nav_icon">
+                <img src="img/mobile.png" alt="contact">
+                <span data-i18n="nav_contact">Contact</span>
+            </a></li>
+        </ul>
+        <div class="toggles">
+            <button id="lang-toggle" class="icon-btn">ES</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero reveal">
+        <div class="hero-content">
+            <h1>Cecilia Díaz</h1>
+            <p class="subtitle" data-i18n="hero_subtitle">Backend Engineer Specializing in Python, AI, and Automation</p>
+            <p class="hero-description" data-i18n="hero_desc">
+                Specializing in turning complex problems into elegant software solutions using Python, FastAPI, Node, and React.
+            </p>
+            <a href="https://github.com/CecyDiazM" class="btn primary" data-i18n="btn_projects">View More Projects</a>
+        </div>
+    </section>
+
+    <section id="projects" class="tutoriales reveal">
+        <h2 class="section-title" data-i18n="skills_title_projects">Projects</h2>
+        
+        <div class="container gallery-desktop">
+            <div class="main-video-container">
+                <div class="main-video">
+                    <h3 class="title" data-i18n="video_title_excel_to_word">Excel to Word</h3>
+                    <video controls src="videos/desktop/excel-to-word.mp4"></video>
+                </div>
+                <div id="video-info-panel" class="info-panel">
+                    <p id="panel-text"></p>
+                </div>
+            </div>
+            
+            <div class="video-list">
+                <div class="vid active" data-video="videos/desktop/excel-to-word.mp4" data-title="video_title_excel_to_word" data-desc="video_desc_excel_to_word">
+                    <video src="videos/desktop/excel-to-word.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_excel_to_word">Excel to Word</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid" data-video="videos/desktop/dashboard.mp4" data-title="video_title_dashboard" data-desc="video_desc_dashboard">
+                    <video src="videos/desktop/dashboard.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_dashboard">Interactive Dashboard</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid" data-video="videos/desktop/gemini-flash.mp4" data-title="video_title_gemini_flash" data-desc="video_desc_gemini_flash">
+                    <video src="videos/desktop/gemini-flash.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_gemini_flash">Gemini Flash</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid" data-video="videos/desktop/chatbot_streamlit.mp4" data-title="video_title_chatbot_streamlit" data-desc="video_desc_chatbot_streamlit">
+                    <video src="videos/desktop/chatbot_streamlit.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_chatbot_streamlit">Chatbot with Streamlit</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                <div class="vid" data-video="videos/desktop/amatista.mp4" data-title="video_title_amatista" data-desc="video_desc_amatista">
+                    <video src="videos/desktop/amatista.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_amatista">Children's Events Website</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                <div class="vid" data-video="videos/desktop/portafolio.mp4" data-title="video_title_portafolio" data-desc="video_desc_portafolio">
+                    <video src="videos/desktop/portafolio.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_portafolio">Portfolio Website</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                <div class="vid" data-video="videos/desktop/porta2.mp4" data-title="video_title_personal" data-desc="video_desc_personal">
+                    <video src="videos/desktop/porta2.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_personal">Personal Website</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                <div class="vid" data-video="videos/desktop/c&e.mp4" data-title="video_title_store" data-desc="video_desc_store">
+                    <video src="videos/desktop/c&e.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_store">Personal Eccomerce</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                <div class="vid" data-video="videos/desktop/psico.mp4" data-title="video_title_psico" data-desc="video_desc_psico">
+                    <video src="videos/desktop/psico.mp4"></video>
+                    <div>
+                        <p class="title" data-i18n="video_title_psico">Online Psychologist</p>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-phone gallery-mobile">
+            <div class="main-video">
+                <h3 class="title" data-i18n="video_title_excel_to_word">Excel to Word</h3>
+                <video class="video" controls src="videos/movil/excelToword-phone.mp4"></video>
+            </div>
+            
+            <div class="video-list-mobile">
+                <div class="vid-mobile active" data-video="videos/movil/excelToword-phone.mp4" data-title="video_title_excel_to_word" data-desc="video_desc_excel_to_word">
+                    <div class="circle-vid">
+                        <video src="videos/movil/excelToword-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid-mobile" data-video="videos/movil/dash-phone.mp4" data-title="video_title_dashboard" data-desc="video_desc_dashboard">
+                    <div class="circle-vid">
+                        <video src="videos/movil/dash-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid-mobile" data-video="videos/movil/gemini-phone.mp4" data-title="video_title_gemini_flash" data-desc="video_desc_gemini_flash">
+                    <div class="circle-vid">
+                        <video src="videos/movil/gemini-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid-mobile" data-video="videos/movil/chatbot_streamlit_phone.mp4" data-title="video_title_chatbot_streamlit" data-desc="video_desc_chatbot_streamlit">
+                    <div class="circle-vid">
+                        <video src="videos/movil/chatbot_streamlit_phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+
+                <div class="vid-mobile" data-video="videos/movil/amatista-phone.mp4" data-title="video_title_amatista" data-desc="video_desc_amatista">
+                    <div class="circle-vid">
+                        <video src="videos/movil/amatista-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+
+                <div class="vid-mobile" data-video="videos/movil/portafo2.mp4" data-title="video_title_portafolio" data-desc="video_desc_portafolio">
+                    <div class="circle-vid">
+                        <video src="videos/movil/portafo2.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+                
+                <div class="vid-mobile" data-video="videos/movil/rosa-phone.mp4" data-title="video_title_personal" data-desc="video_desc_personal">
+                    <div class="circle-vid">
+                        <video src="videos/movil/rosa-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+
+                <div class="vid-mobile" data-video="videos/movil/c&e-phone.mp4" data-title="video_title_store" data-desc="video_desc_store">
+                    <div class="circle-vid">
+                        <video src="videos/movil/c&e-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+
+                <div class="vid-mobile" data-video="videos/movil/psico-phone.mp4" data-title="video_title_psico" data-desc="video_desc_psico">
+                    <div class="circle-vid">
+                        <video src="videos/movil/psico-phone.mp4"></video>
+                    </div>
+                    <button class="info-btn">Info</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <div id="mobile-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <section id="skills" class="skills reveal">
+        <h2 class="section-title" data-i18n="skills_title">Tech Stack</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 data-i18n="backend" class="add">Backend</h3>
+                <p>Python, FastAPI, Django, Node.js, Express, PHP, Laravel</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-i18n="dtb" class="add">Data Bases</h3>
+                <p>PostgreSQL, MySQL, MongoDB</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-i18n="tech" class="add">Tech</h3>
+                <p>Jenkins, Docker, Postman, Git</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-i18n="frontend" class="add">Frontend</h3>
+                <p>React, JavaScript (ES6+), HTML5, CSS3 Moderno, Reflex, Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-i18n="auto" class="add">Automation</h3>
+                <p>Excel, Pandas, Google Sheets, Flet, Streamlit, Dashboards y más</p>
+            </div>
+            <div class="skill-card">
+                <h3 data-i18n="stack_ia" class="add">Integrative AI</h3>
+                <p>ChatBots, Agentes IA, MCP, Claude, Gemini, Antigravity, OpenCode, etc</p>
+            </div>
+            <div class="skill-card">
+                <p class="parrafo" data-i18n="info1">As a programmer, I know how to use AI and integrate it into my projects, as well as adapt to AI tools without losing control of the projects</p>
+            </div>
+            <div class="skill-card">
+                <p class="parrafo add" data-i18n="info2">Studying and preparing with AWS and the cloud</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer reveal">
+        <p data-i18n="footer_text">Ready to build the future?</p>
+        <a href="mailto:cecilia@cevdeveloper.com" class="email-link">cecilia@cevdeveloper.com</a>
+        <div class="socials">
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://whatsapp.com" target="_blank">Whatsapp</a>
+        </div>
+    </footer>
+
+    <div class="final">
+        <div class="avatarfinal">
+            <img src="img/yoavatar.png" class="avatarfinal" alt="Cecilia Díaz Avatar">
+        </div>
+        <p class="copyright" data-i18n="copy">© 2026 Cecilia Díaz | Software Engineer</p>
+    </div>
+</body>
+</html>
